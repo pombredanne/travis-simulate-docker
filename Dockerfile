@@ -14,6 +14,10 @@ RUN add-apt-repository -y ppa:ubuntu-wine/ppa
 RUN apt-get update -qq
 RUN apt-get install -y wine1.7
 
+#Build Tools
+RUN apt-get install -y build-essential
+RUN apt-get install -y gcc g++
+
 #Install cross-compile tools
 RUN apt-get install -y binutils-mingw-w64-i686
 RUN apt-get install -y gcc-mingw-w64-i686
