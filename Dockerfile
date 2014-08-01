@@ -17,3 +17,7 @@ RUN apt-get install -y wine1.7
 #Install cross-compile tools
 RUN apt-get install -y binutils-mingw-w64-i686
 RUN apt-get install -y gcc-mingw-w64-i686
+
+
+#Install Editors for using docker
+RUN apt-get install -y vim
