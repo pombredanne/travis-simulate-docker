@@ -25,3 +25,4 @@ RUN apt-get install -y gcc-mingw-w64-i686
 
 #Install Editors for using docker
 RUN apt-get install -y vim
+RUN apt-get install -y git
