@@ -18,6 +18,7 @@ RUN apt-get install -y wine1.7
 RUN apt-get install -y build-essential
 RUN apt-get install -y gcc g++
 RUN apt-get install -y autoconf automake
+RUN apt-get install -y cmake
 
 #Other related Tools
 RUN apt-get install -y git
