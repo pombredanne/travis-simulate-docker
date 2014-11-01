@@ -13,6 +13,7 @@ RUN apt-get install -y build-essential
 RUN apt-get install -y gcc g++
 RUN apt-get install -y autoconf automake libtool libltdl-dev
 RUN apt-get install -y cmake
+RUN apt-get install -y bison flex
 
 #Other related Tools
 RUN apt-get install -y git
