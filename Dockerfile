@@ -11,7 +11,7 @@ RUN apt-get update -qq
 #Build Tools
 RUN apt-get install -y build-essential
 RUN apt-get install -y gcc g++
-RUN apt-get install -y autoconf automake libtool
+RUN apt-get install -y autoconf automake libtool libltdl-dev
 RUN apt-get install -y cmake
 
 #Other related Tools
